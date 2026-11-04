@@ -2,7 +2,8 @@
 
 **AI-powered spectral-spatial land-cover classification using a 3D CNN + 2D CNN**
 
-[![Gradio](https://img.shields.io/badge/Gradio-Live%20Demo-orange?style=for-the-badge&logo=gradio)](https://huggingface.co/spaces/tuhinbiswas404076-ai/hyperspectral-image-classification)
+**Publisher:** Uday Kumar
+
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-orange?style=for-the-badge&logo=tensorflow)](https://tensorflow.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -11,11 +12,7 @@
 
 ## 🚀 Live Demo
 
-> **Replace `tuhinbiswas404076-ai` below with your actual Hugging Face username after deployment.**
-
-```
-https://huggingface.co/spaces/tuhinbiswas404076-ai/hyperspectral-image-classification
-```
+Deploy this application to Hugging Face Spaces to publish a live demo.
 
 ---
 
@@ -182,10 +179,6 @@ hyperspectral-image-classification/
 ## ⚙️ Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/tuhinbiswas404076-ai/hyperspectral-image-classification.git
-cd hyperspectral-image-classification
-
 # Create virtual environment (Python 3.11 recommended)
 python -m venv .venv
 
@@ -240,7 +233,7 @@ huggingface-cli login
 
 # Create and push to Space
 huggingface-cli repo create hyperspectral-image-classification --type space --space-sdk gradio
-git remote add hf https://huggingface.co/spaces/tuhinbiswas404076-ai/hyperspectral-image-classification
+git remote add hf https://huggingface.co/spaces/YOUR_HF_USERNAME/hyperspectral-image-classification
 git push hf main
 ```
 
@@ -252,9 +245,11 @@ If you use this project in your research, please cite:
 
 ```bibtex
 @misc{hyperspectral-classification,
+  author={Kumar, Uday},
   title={Hyperspectral Image Classification using 3D CNN + 2D CNN},
+  publisher={Uday Kumar},
   year={2026},
-  url={https://github.com/tuhinbiswas404076-ai/hyperspectral-image-classification}
+  url={https://github.com/udaykumar-3005/hyperspectral-image-classification}
 }
 ```
 
