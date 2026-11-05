@@ -2,9 +2,6 @@
 
 **AI-powered spectral-spatial land-cover classification using a 3D CNN + 2D CNN**
 
-**Maintainer:** Uday Kumar<br>
-**Based on:** [Hyperspectral Image Classification by Tuhin Biswas](https://github.com/tuhinbiswas404076-ai/hyperspectral-image-classification)
-
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-orange?style=for-the-badge&logo=tensorflow)](https://tensorflow.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
